@@ -1,0 +1,78 @@
+/* Umumiy sahifa uslubi */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 30px;
+    max-width: 700px;
+    margin: auto;
+}
+
+/* Sarlavha */
+h1 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Tugma uslubi */
+#butn {
+    display: block;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 0 auto 30px auto;
+    transition: background-color 0.3s ease;
+}
+
+#butn:hover {
+    background-color: #0056b3;
+}
+
+/* Ma'lumotlar konteyneri */
+.menu {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Har bir satr */
+.menu h2 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+/* Xarita */
+#map-frame {
+    width: 100%;
+    height: 320px;
+    border: 0;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+/* Responsiv */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 22px;
+    }
+
+    #butn {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .menu h2 {
+        font-size: 16px;
+    }
+
+    #map-frame {
+        height: 250px;
+    }
+}
